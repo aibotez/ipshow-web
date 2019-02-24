@@ -1,0 +1,41 @@
+<h1>人生苦短，我用python</h1>
+<h2>这些ip都是从上万个ip里筛选的,抓取ip与筛选的程序每天24H都会运行着，所以无论何时该网站的ip都是可用的,需要用python去抓数据的肯定都能用得到，欢迎来爬</h2>
+<h3>copyright by 白白白和黑黑黑</h3>
+{#<tr>你的IP</tr>#}
+{#{% for i in user_info %}#}
+{#    <tri>#}
+{#    {{ i }}#}
+{#    </tri>#}
+{#    <td>#}
+{#    <br>#}
+{#    </td>#}
+{#    {% if i|length < 16 %}#}
+{#        <tr>你手机或电脑的系统信息</tr>#}
+{##}
+{#    {% endif %}#}
+{#{% endfor %}#}
+<h3>{{ time }}</h3>
+
+{% for i in user_info %}
+    {{ i }}
+    <br>
+{% endfor %}
+
+<h1>HTTPS</h1>
+{% for i in s %}
+    <trs>
+    {{ i }}
+    </trs>
+    <td>
+    <br>
+    </td>
+{% endfor %}
+<h1>HTTP</h1>
+{% for i in p %}
+    <trp>
+    {{ i }}
+    </trp>
+    <td>
+    <br>
+    </td>
+{% endfor %}
